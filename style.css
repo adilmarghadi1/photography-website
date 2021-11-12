@@ -127,6 +127,7 @@
         position: relative;
         margin: -40px auto;
         display: flex;
+        z-index: 1000;
         justify-content: center;
         align-items: center;
     }
@@ -157,6 +158,7 @@
 }
 
 .section1 {
+    
     display: grid;
     grid-template-columns: 40% 60%;
 }
@@ -177,6 +179,7 @@
 }
 
 .box1 p {
+    
     opacity: 0.5;
     margin-top: 20px;
     width: 90%;
@@ -216,6 +219,11 @@
 
     .box1 {
         height: 60vh;
+    }
+
+    .box1 p {
+    opacity: 1;
+
     }
 
     .box2 img {
